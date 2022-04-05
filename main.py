@@ -1,3 +1,6 @@
+!pip install pymongo
+!pip install dnspython
+!pip install pyTelegramBotAPI
 import os
 from pymongo import MongoClient
 import pymongo

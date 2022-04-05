@@ -1,13 +1,10 @@
-!pip install pymongo
-!pip install dnspython
-!pip install pyTelegramBotAPI
 import os
-from pymongo import MongoClient
 import pymongo
-from flask import Flask, request
-from telebot import types
+from pymongo import MongoClient
 import random
 import telebot
+from flask import Flask, request
+from telebot import types
 
 TOKEN = "5220542900:AAHZCYn3vr5G-RDLJ7ExEFbU34FIUlm4sB0"
 bot = telebot.TeleBot(TOKEN)
